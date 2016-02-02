@@ -1,0 +1,11 @@
+{
+  "name": "yesman-builder",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "*",
+    "gulp": "*",
+    "gulp-coffee": "*",
+    "gulp-jade": "*"
+  }
+}
