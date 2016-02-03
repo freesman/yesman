@@ -6,6 +6,8 @@
     "webpack": "*",
     "gulp": "*",
     "gulp-coffee": "*",
-    "gulp-jade": "*"
+    "gulp-jade": "*",
+    "coffee-loader": "*",
+    "gulp-gh-pages": "*"
   }
 }
