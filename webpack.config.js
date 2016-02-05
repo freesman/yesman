@@ -5,14 +5,16 @@ module.exports = {
   context: __dirname + '/app',
   entry: {
     home: 'coffee!./home.coffee',
-    about: 'coffee!./about.coffee'
+    common: 'coffee!./common.coffee'
   },
   resolve:{
-    extensions: ['', '.web.coffee', '.web.js', '.coffee', '.js']
+    extensions: ['', '.web.coffee', '.web.js', '.coffee', '.js'],
+    alias: {jquery: 'D:/yesman-builder/libs/jquery-2.2.0.min.js'}
   },
 
   output: {
     path: mode == 'development' ? __dirname + '/dist' : __dirname + '/public',
+    publicPath: 'D:/yesman-builder/dist/',
   	filename: '[name].js',
     library: '[name]'
   },

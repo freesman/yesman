@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"log",
+				"login"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"c",
+				"common"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
 				"we",
 				"welcome"
 			],
@@ -24,26 +40,26 @@
 	"buffers":
 	[
 		{
-			"file": "app/about.coffee",
+			"file": "webpack.config.js",
 			"settings":
 			{
-				"buffer_size": 87,
+				"buffer_size": 1209,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/welcome.coffee",
+			"file": "app/common.coffee",
 			"settings":
 			{
-				"buffer_size": 50,
+				"buffer_size": 382,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/home.coffee",
+			"file": "app/logout.coffee",
 			"settings":
 			{
-				"buffer_size": 86,
+				"buffer_size": 41,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,15 +67,15 @@
 			"file": "dist/home.html",
 			"settings":
 			{
-				"buffer_size": 162,
+				"buffer_size": 311,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "webpack.config.js",
+			"file": "app/home.coffee",
 			"settings":
 			{
-				"buffer_size": 1097,
+				"buffer_size": 87,
 				"line_ending": "Windows"
 			}
 		}
@@ -71,20 +87,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 311.0,
-		"last_filter": "",
+		"height": 150.0,
+		"last_filter": "Package Control: in",
 		"selected_items":
 		[
 			[
-				"Package Control: i",
+				"Package Control: in",
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: in",
+				"Package Control: i",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -105,16 +121,41 @@
 	},
 	"expanded_folders":
 	[
-		"/D/yesman-builder/dist"
+		"/D/yesman-builder/dist",
+		"/D/yesman-builder"
 	],
 	"file_history":
 	[
-		"/D/yesman-builder/dist/common.js",
+		"/D/yesman-builder/app/about.coffee",
+		"/D/yesman-builder/jquery-2.2.0.min.js",
+		"/D/yesman-builder/app/login.coffee",
+		"/D/yesman-builder/dist/login.coffee",
+		"/D/yesman-builder/dist/home.js",
+		"/D/yesman-builder/app/home.coffee",
+		"/D/webapps/sp4/app/scripts/page/Index/Index.jade",
+		"/D/webapps/sp4/app/scripts/page/Index/Index.js",
+		"/D/webapps/sp4/app/scripts/component/AuthModal/AuthModal.jade",
+		"/D/webapps/sp4/app/scripts/component/AuthModal/AuthModal.js",
+		"/D/webapps/sp4/app/scripts/component/AuthModal/AuthModal.sass",
+		"/D/webapps/sp4/app/styles/main.sass",
+		"/D/webapps/sp4/app/scripts/page/News/Banner/Banner.js",
+		"/D/webapps/sp4/app/scripts/Router.js",
+		"/D/webapps/sp4/app/scripts/page/News/News.sass",
+		"/D/webapps/sp4/app/scripts/page/News/News.jade",
+		"/D/webapps/sp4/app/styles/_mixins.sass",
+		"/D/webapps/sp4/app/scripts/page/Index/Share/Share.sass",
+		"/D/webapps/sp4/app/scripts/page/Index/Index.sass",
+		"/D/webapps/sp4/app/scripts/page/News/News.js",
+		"/D/webapps/sp4/app/scripts/page/News/package.json",
+		"/D/yesman-builder/webpack.config.js",
 		"/D/yesman-builder/dist/home.html",
+		"/D/yesman-builder/app/welcome.coffee",
+		"/D/webapps/sp4/app/scripts/page/Error404/Error404.js",
+		"/D/webapps/sp4/app/scripts/page/Error404/Error404.jade",
+		"/D/webapps/sp4/app/scripts/page/_Base/Base.js",
+		"/D/yesman-builder/dist/common.js",
 		"/D/yesman-builder/public/home.html",
 		"/D/yesman-builder/app/home.html",
-		"/D/yesman-builder/app/about.coffee",
-		"/D/yesman-builder/webpack.config.js",
 		"/D/yesman-builder/gulpfile.js",
 		"/D/yesman-builder/welcome.coffee",
 		"/D/yesman-builder/home.coffee",
@@ -129,19 +170,14 @@
 		"/D/yesman-builder/home.jade",
 		"/D/yesman-builder/.gitignore",
 		"/D/webapps/sp4/app/scripts/packages/social/main.coffee",
-		"/D/webapps/sp4/app/styles/main.sass",
-		"/D/webapps/sp4/app/scripts/page/Index/Index.jade",
-		"/D/webapps/sp4/app/styles/_mixins.sass",
 		"/D/webapps/sp4/app/styles/_common.sass",
 		"/D/webapps/sp4/app/scripts/page/Index/Share/Share.jade",
 		"/D/webapps/sp4/app/scripts/page/Index/Share/Share.js",
-		"/D/webapps/sp4/app/scripts/page/_Base/Base.js",
 		"/D/webapps/sp4/app/scripts/component/_Base/Base.js",
 		"/D/webapps/sp4/app/scripts/component/AuthModal/package.json",
 		"/D/webapps/sp4/app/scripts/component/Layout/Layout.sass",
 		"/D/webapps/sp4/app/scripts/component/Layout/Layout.jade",
 		"/D/webapps/sp4/app/scripts/component/_Modal/Modal.jade",
-		"/D/webapps/sp4/app/scripts/component/AuthModal/AuthModal.jade",
 		"/D/webapps/sp4/app/html/index.jade",
 		"/D/webapps/sp4/app/html/_base.jade",
 		"/D/webapps/sp4/app/scripts/app.js",
@@ -151,10 +187,8 @@
 		"/D/yesman-builder/.npmignore",
 		"/D/webapps/sp4/.npmignore",
 		"/D/webapps/sp4/webpack/config.coffee",
-		"/D/yesman-builder/app/welcome.coffee",
 		"/D/yesman-builder/home.html",
 		"/D/yesman-builder/cirlce.txt",
-		"/D/yesman-builder/app/home.coffee",
 		"/D/yesman-builder/app/module.coffee",
 		"/D/webapps/test/webpack.config.js",
 		"/D/webapps/sp4/package.json",
@@ -186,7 +220,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -218,12 +252,128 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/about.coffee",
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								359
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/common.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/logout.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dist/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/home.coffee",
 					"semi_transient": false,
 					"settings":
 					{
@@ -248,124 +398,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/welcome.coffee",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 50,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								27,
-								27
-							]
-						],
-						"settings":
-						{
-							"hasHeader": false,
-							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/home.coffee",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 86,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"hasHeader": false,
-							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "dist/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 162,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								144,
-								144
-							]
-						],
-						"settings":
-						{
-							"hasHeader": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "webpack.config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1097,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								793,
-								793
-							]
-						],
-						"settings":
-						{
-							"hasHeader": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 486.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
