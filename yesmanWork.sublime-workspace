@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"extr",
+				"ExtractTextPlugin"
+			],
+			[
+				"re",
+				"regexp"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
 				"ba",
 				"background-image"
 			],
@@ -14,10 +26,6 @@
 			[
 				"li",
 				"link	Tag"
-			],
-			[
-				"j",
-				"join"
 			],
 			[
 				"r",
@@ -71,7 +79,7 @@
 			"file": "webpack.config.js",
 			"settings":
 			{
-				"buffer_size": 1424,
+				"buffer_size": 1930,
 				"line_ending": "Windows"
 			}
 		},
@@ -79,7 +87,7 @@
 			"file": "app/common.coffee",
 			"settings":
 			{
-				"buffer_size": 668,
+				"buffer_size": 610,
 				"line_ending": "Windows"
 			}
 		},
@@ -87,7 +95,7 @@
 			"file": "app/modules/login.css",
 			"settings":
 			{
-				"buffer_size": 126,
+				"buffer_size": 148,
 				"line_ending": "Windows",
 				"name": "login"
 			}
@@ -96,15 +104,31 @@
 			"file": "app/footer/index.coffee",
 			"settings":
 			{
-				"buffer_size": 126,
+				"buffer_size": 87,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/footer/footer.css",
+			"file": "dist/styles.css",
 			"settings":
 			{
-				"buffer_size": 18,
+				"buffer_size": 13088,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/img/index.styl",
+			"settings":
+			{
+				"buffer_size": 85,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/footer/footer.styl",
+			"settings":
+			{
+				"buffer_size": 61,
 				"line_ending": "Windows"
 			}
 		},
@@ -112,7 +136,7 @@
 			"file": "app/footer/footer.jade",
 			"settings":
 			{
-				"buffer_size": 28,
+				"buffer_size": 37,
 				"line_ending": "Windows"
 			}
 		},
@@ -120,7 +144,7 @@
 			"file": "app/home.coffee",
 			"settings":
 			{
-				"buffer_size": 78,
+				"buffer_size": 64,
 				"line_ending": "Windows"
 			}
 		},
@@ -128,7 +152,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 327,
+				"buffer_size": 413,
 				"line_ending": "Unix"
 			}
 		},
@@ -136,7 +160,7 @@
 			"file": "dist/home.html",
 			"settings":
 			{
-				"buffer_size": 656,
+				"buffer_size": 702,
 				"line_ending": "Unix"
 			}
 		},
@@ -144,7 +168,7 @@
 			"file": "app/modules/tabs.css",
 			"settings":
 			{
-				"buffer_size": 18531,
+				"buffer_size": 5028,
 				"line_ending": "Windows"
 			}
 		}
@@ -157,9 +181,13 @@
 	"command_palette":
 	{
 		"height": 150.0,
-		"last_filter": "Package Control: in",
+		"last_filter": "Package Control: ins",
 		"selected_items":
 		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: in",
 				"Package Control: Install Package"
@@ -196,6 +224,9 @@
 	],
 	"file_history":
 	[
+		"/D/yesman-builder/dist/styles.css",
+		"/D/yesman-builder/app/img/footer.styl",
+		"/D/yesman-builder/app/footer/footer.css",
 		"/D/den/app/html/_layout.jade",
 		"/D/yesman-builder/node_modules/jquery-ui/themes/cupertino/jquery-ui.css",
 		"/D/yesman-builder/app/modules/tabs.css",
@@ -204,7 +235,6 @@
 		"/D/yesman-builder/node_modules/css-loader/lib/css-base.js",
 		"/D/jj/gulpfile.js",
 		"/D/yesman-builder/app/common.coffee",
-		"/D/yesman-builder/app/footer/footer.css",
 		"/D/yesman-builder/app/tabs.coffee",
 		"/D/yesman-builder/dist/home.html",
 		"/D/yesman-builder/app/logout.coffee",
@@ -316,6 +346,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".pic",
+			"back",
+			".pic",
 			".ui-state-active",
 			"image",
 			"space"
@@ -345,15 +378,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1424,
+						"buffer_size": 1930,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								756,
-								756
+								1326,
+								1326
 							]
 						],
 						"settings":
@@ -363,8 +396,8 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 16.0,
-						"translation.y": 270.0,
+						"translation.x": 0.0,
+						"translation.y": 702.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -376,15 +409,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 668,
+						"buffer_size": 610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								192,
-								224
+								176,
+								176
 							]
 						],
 						"settings":
@@ -398,7 +431,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -407,27 +440,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 126,
+						"buffer_size": 148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								103,
-								103
+								146,
+								146
 							]
 						],
 						"settings":
 						{
 							"auto_name": "login",
+							"hasHeader": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -436,52 +470,55 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 126,
+						"buffer_size": 87,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								58,
-								58
+								25,
+								25
 							]
 						],
 						"settings":
 						{
+							"hasHeader": false,
 							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "app/footer/footer.css",
+					"file": "dist/styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18,
+						"buffer_size": 13088,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17,
-								17
+								13054,
+								13054
 							]
 						],
 						"settings":
 						{
 							"hasHeader": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 11983.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -489,19 +526,77 @@
 				},
 				{
 					"buffer": 5,
-					"file": "app/footer/footer.jade",
+					"file": "app/img/index.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28,
+						"buffer_size": 85,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28,
-								28
+								62,
+								85
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/footer/footer.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 61,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/footer/footer.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
 							]
 						],
 						"settings":
@@ -513,24 +608,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "app/home.coffee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 78,
+						"buffer_size": 64,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								52,
-								52
+								36,
+								36
 							]
 						],
 						"settings":
@@ -542,24 +637,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 327,
+						"buffer_size": 413,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								319,
-								319
+								301,
+								301
 							]
 						],
 						"settings":
@@ -573,24 +668,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "dist/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 656,
+						"buffer_size": 702,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								55,
-								55
+								82,
+								82
 							]
 						],
 						"settings":
@@ -601,27 +696,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "app/modules/tabs.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18531,
+						"buffer_size": 5028,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5028,
+								5028
 							]
 						],
 						"settings":
@@ -631,11 +726,11 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 540.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]

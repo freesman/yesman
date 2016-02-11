@@ -1,13 +1,21 @@
 {
   "name": "yesman-builder",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "*",
+    "normalize": "*"
+    },
   "devDependencies": {
     "webpack": "*",
     "gulp": "*",
-    "gulp-coffee": "*",
-    "gulp-jade": "*",
+    "gulp-gh-pages": "*",
     "coffee-loader": "*",
-    "gulp-gh-pages": "*"
+    "jade-loader": "*",
+    "file-loader": "*",
+    "url-loader": "*",
+    "style-loader": "*",
+    "css-loader": "*",
+    "stylus-loader": "*",
+    "autoprefixer-loader": "*"
   }
 }
