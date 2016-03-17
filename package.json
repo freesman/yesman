@@ -1,0 +1,29 @@
+{
+  "name": "yesman-pack",
+  "version": "1.0.0",
+  "description": "my own webpack for easy projects",
+  "dependencies": {
+    "webpack": "*"
+  },
+  "devDependencies": {
+    "webpack": "*",
+    "gulp": "*",
+    "gulp-gh-pages": "*",
+    "jade": "*",
+    "jade-loader": "*",
+    "coffee-script": "*",
+    "coffee-loader": "*",
+    "style-loader": "*",
+    "css-loader": "*",
+    "stylus-loader": "*",
+    "autoprefixer-loader": "*",
+    "file-loader": "*",
+    "url-loader": "*",
+    "extract-text-webpack-plugin": "*",
+    "html-webpack-plugin": "*"
+
+  },
+  
+  "author": "freesman <freesmanfreezil@gmail.com> (https://github.com/freesman)",
+  "license": "no license"
+}
