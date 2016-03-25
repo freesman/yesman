@@ -47,6 +47,8 @@ module.exports = {
   devtool: mode == 'development' ? 'eval' : null,
 
   noParse: wrapRegexp(/\/node_modules\/(jquery)/),
+  noParse: wrapRegexp(/\/node_modules\/(backbone)/),
+  noParse: wrapRegexp(/\/node_modules\/(backbone.epoxy)/),
 
   plugins: [
     new webpack.NoErrorsPlugin(),

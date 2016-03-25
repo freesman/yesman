@@ -12,5 +12,7 @@ $( "#tabs" ).tabs()
 
 appView = require('./scripts/app-view')
 require('./scripts/collection-homes')
+require('./scripts/collection-baths')
+require('./scripts/collection-gallery')
 
 
