@@ -17,9 +17,7 @@ AppView = Backbone.View.extend(
     console.log(srcAttr)
     $('.singleImg').attr('src', srcAttr)
   closeGallery: ->
-    $('.box').css('display', 'none')
-    $('.listGallery').css('display', 'none')
-    $('.contentGallery').css('display', 'none')
+    $('.boxShadow, .box, .listGallery, .contentGallery').css('display', 'none')
     $('body').css('overflow', 'auto')
 )
 

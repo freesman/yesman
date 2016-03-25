@@ -20,9 +20,7 @@ GalleryView = Backbone.Epoxy.View.extend(
   events:
     'click .work' : 'openWork'
   openWork: ->
-    $('.box').css('display', 'block')
-    $('.listGallery').css('display', 'block')
-    $('.contentGallery').css('display', 'block')
+    $('.boxShadow, .box, .listGallery, .contentGallery').css('display', 'block')
     $('body').css('overflow', 'hidden')
 )
 
@@ -40,8 +38,6 @@ AppGallery = Backbone.Epoxy.View.extend(
   add: (nameH, pictureH)->
     pictureH = '../img/gallery/' + pictureH + '.png'
     idH = this.collection.length + 1
-    console.log(this.collection.length)
-    console.log(this.collection)
     this.collection.add({name: nameH, picture: pictureH, id: idH})
 )
 
