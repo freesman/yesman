@@ -34,7 +34,7 @@ module.exports = {
       {test: /\.jade$/, loader: 'jade'},
       {test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css!autoprefixer?browsers=last 2 versions')},
       {test: /\.styl$/, loader: ExtractTextPlugin.extract('style', 'css!autoprefixer?browsers=last 2 versions!stylus?resolve url')},
-      {test: /\.(png|jpg|svg)$/, loader: addHash('url?name=[path][name].[ext]&limit=4096', 'hash:6')}
+      {test: /\.(png|jpg|svg|ttf)$/, loader: addHash('url?name=[path][name].[ext]&limit=4096', 'hash:6')}
     ]
   },
 
@@ -64,6 +64,11 @@ module.exports = {
     }),
     new webpack.DefinePlugin({
       mode: JSON.stringify(mode)
+    }),
+    new webpack.ProvidePlugin({
+    $: "jquery",
+    jQuery: "jquery",
+    "window.jQuery": "jquery"
     })
     /*{
       apply: function(compiler){

@@ -1,13 +1,27 @@
-#content
+.content
   margin 0 auto
   width 1000px
-  border thin solid black
+  border thin solid #BB9C6D
+  border-radius 20px
+  margin-top 10px
+  background url('img/planshet3.png') 435px 6px no-repeat, url('img/plane2.jpg') repeat
+  box-shadow 5px 5px 8px rgba(0,0,0,0.5)
+  
+.plane
+  background url('img/paper7.png') repeat
+  margin 20px
+  margin-top 46px
+  margin-right 40px
+  margin-left 40px
+  box-shadow 2px 2px 1px rgba(0,0,0,0.5)
+  border-top-right-radius 10px
+  min-height 720px
 
 .homes, .baths, .photos
   height 210px
   width 200px
   margin-top 15px
-  margin-left 84px
+  margin-left 66px
   display inline-block
   cursor pointer
   vertical-align top
@@ -16,11 +30,12 @@
     border thin solid red
   
 body 
-  background-color #DDDDDD
+  background url('img/wood-1.png') repeat
+  //background-color #EEE8CD
   
 .main
   height 500px
-  width 900px
+  width 820px
   margin-top 20px
   margin-left 20px
   border thin solid black
@@ -29,12 +44,63 @@ body
   margin-left 10px
 
 
+.line
+  border none
+  position relative
+  z-index 30
+  background-color #949494
+  height 1px
+  top 45px
+#firstTab
+  margin-left -2px
+.ui-tabs
+  padding 0
+  margin-top -12px
+  border-color transparent
+.ui-tabs .ui-tabs-nav
+  padding 0px
 .ui-tabs .ui-tabs-nav li
+  border-color transparent
+  font-family sans
+  font-size 20px
+  position relative
+  z-index 20
   margin-left 20px
+  border-radius 0px
+  //background-color #AED0EA
+  //background-color #d6de77
+  //background url('img/color1.png') repeat
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor
-  background-color rgba(116, 178, 226, 0.65)
-  padding-right 40px
-  padding-left 40px
+  padding-right 50px
+  padding-left 50px
+  background-color transparent
+  //color #7a7e47
+  color #362b36
+  font-weight normal
+  font-family hand
+.ui-widget-header
+  border none
+.ui-tabs .ui-tabs-nav li.ui-tabs-active
+  z-index 40
+  //background-color #787B4C
+  background-color transparent
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a
+  //color #f5f5dc
+  //text-decoration underline
+  font-weight bold
+
+#tab-main
+  background url('img/color1.png') repeat
+  &:hover
+    border-color blue
+#tab-home
+  background url('img/color2.png') repeat
+#tab-bath
+  background url('img/color3.png') repeat
+#tab-gallery
+  background url('img/color4.png') repeat
+#tab-another
+  background url('img/color5.png') repeat
 
 
 .homes h3, .baths h3, .works h3
@@ -70,79 +136,10 @@ body
   height 200px
   width 200px
   margin-top 15px
-  margin-left 84px
+  margin-left 66px
   display inline-block
   cursor pointer
   vertical-align top
   border thin solid black
   &:hover
     border thin solid red
-
-
-.boxShadow
-  position fixed
-  opacity .8
-  background-color rgb(51, 51, 51)
-  height 100%
-  width 100%
-  top 0
-  left 0
-  z-index 100
-  display none
-
-.box
-  position fixed
-  left 0
-  right 0
-  top 0
-  bottom 0
-  z-index 110
-  display none
-  
-.contentGallery
-  position absolute
-  margin 30px 70px 102px
-  z-index 150
-  border thin solid red
-  top 0
-  left 0
-  
-.contentImg
-  position relative
-  max-width 100%
-  max-height 100%
-  background-color white
-  border thin solid green
-  z-index 200
-  
-.contentSpacer
-  height 100px
-  position absolute
-  top 100%
-  left 0
-  width 1px
-  
-.listGallery
-  position fixed
-  bottom 0
-  left 0
-  height 100px
-  border thin solid red
-  z-index 110
-  display none
-  opacity .8
-  background-color rgb(51, 51, 51)
-  width 100%
-  margin 0 auto
-  
-.mini
-  height 90px
-  width 90px
-  border thin solid blue
-  display inline-block
-  
-.premini
-  height 100%
-  width 400px
-  margin 0 auto
-  border thin solid green

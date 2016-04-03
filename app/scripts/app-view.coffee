@@ -1,4 +1,3 @@
-$ = require('jquery')
 AppView = Backbone.View.extend(
   el: 'body'
   events:
@@ -6,19 +5,19 @@ AppView = Backbone.View.extend(
     'click .image' : 'singleGallery'
     'click .planeFirst' : 'singleGallery'
     'click .planeSecond' : 'singleGallery'
-    'click .box' : 'closeGallery'
+    'click #fancybox-overlay' : 'closeGallery'
+    'click #fancybox-thumbs a' : 'openThumbImg'
   closer: ->
     switcher = $('.singleGallery').attr('data-id')
-    console.log(switcher)
     if switcher == 'home' then $( "#tabs" ).tabs({active: 1})
     else $( "#tabs" ).tabs({active: 2})
   singleGallery: (e)->
     srcAttr = e.currentTarget.src
-    console.log(srcAttr)
     $('.singleImg').attr('src', srcAttr)
   closeGallery: ->
-    $('.boxShadow, .box, .listGallery, .contentGallery').css('display', 'none')
     $('body').css('overflow', 'auto')
+  openThumbImg: (e)->
+    $.fancybox.jumpto($(e.currentTarget).attr('data-id'))
 )
 
 appView = new AppView

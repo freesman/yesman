@@ -1,5 +1,4 @@
 galleryTemplate = require('./templates/galleryTemplate.jade')()
-$ = require('jquery')
 
 PictureModel = Backbone.Model.extend(
   defaults:
@@ -20,7 +19,6 @@ GalleryView = Backbone.Epoxy.View.extend(
   events:
     'click .work' : 'openWork'
   openWork: ->
-    $('.boxShadow, .box, .listGallery, .contentGallery').css('display', 'block')
     $('body').css('overflow', 'hidden')
 )
 
